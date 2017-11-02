@@ -1,0 +1,22 @@
+title: openSUSE Release Tools
+description: News about openSUSE release tool improvements and process changes.
+
+author: Jimmy Berry
+email: opensuse-releaseteam@opensuse.org
+github_username: openSUSE/osc-plugin-factory
+
+url: http://release.tools.opensuse.org/
+baseurl: ""
+
+theme: minima
+minima:
+  date_format: "%Y-%m-%d"
+
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
+
+exclude:
+  - CNAME
+  - LICENSE
+  - README.md
