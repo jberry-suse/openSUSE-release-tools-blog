@@ -1,3 +1,3 @@
 # openSUSE-release-tools-blog
 
-Source behind http://release.tools.opensuse.org/.
+Source behind http://release-tools.opensuse.org/.
