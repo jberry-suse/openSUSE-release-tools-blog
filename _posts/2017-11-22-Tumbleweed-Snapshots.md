@@ -4,10 +4,10 @@ title: "Announcing Tumbleweed Snapshots: Rolling With You"
 categories: tumbleweed-snapshots
 ---
 
-From [announcement to `opensuse-factory` mailing list](https://lists.opensuse.org/opensuse-factory/2017-11/msg00591.html):
+Adapted from [announcement to `opensuse-factory` mailing list](https://lists.opensuse.org/opensuse-factory/2017-11/msg00591.html):
 
-Some of you may remember over a year ago when I proposed the concept of
-Tumbleweed Snapshots [1] and later the prototype that I provided [2]. Today I
+Some of you may remember over a year ago when I [proposed the concept of
+Tumbleweed Snapshots](https://lists.opensuse.org/opensuse-factory/2016-10/msg00591.html) and later the [prototype that I provided](https://lists.opensuse.org/opensuse-factory/2016-12/msg00025.html). Today I
 would like to announce hosting for the snapshots, that is not inside my house
 :), and ready to use!
 
@@ -62,7 +62,7 @@ During `init` the original repo files are kept and can be restored by:
 
 If you are curious, run `zypper lr -U` before and after the init to see the
 URLs change. Originally, this was done via direct manipulation of the repo
-file, but was refactored to a libzypp config option [3] and later as vars.d/
+file, but was [refactored to a libzypp config option](https://github.com/openSUSE/libzypp/pull/68) and later as vars.d/
 by mlandres. The final implementation simply updates the text file
 /etc/zypp/vars.d/snapshotVersion after changing OSS and NON-OSS repo URLS to
 include the variable.
@@ -81,13 +81,12 @@ or to switch, refresh, and dup
 
     tumbleweed update
 
-For full list of commands and options `tumbleweed --help` or see documentation
-[4]. A short video demonstration is also available [5].
+For full list of commands and options `tumbleweed --help` or see [documentation](https://github.com/boombatower/tumbleweed-cli). A [short video demonstration is also available](https://www.youtube.com/watch?v=RkDwGiS9Kcc).
 
 Lastly, if there are mirror administrators interested in hosting/mirror the
 snapshots let me know. Using various tools for interacting with S3 it should be
 easy to make a copy of the public bucket. For those interested, take a look at
-the variations of the tool that creates the snapshots [6].
+the [variations of the tool that creates the snapshots](https://github.com/boombatower/tumbleweed-snapshot).
 
 An aside, due to rsync.opensuse.org being regularly out-of-sync and not yet
 having access to stage.opensuse.org I am relying on up-to-date mirrors that have
@@ -103,11 +102,3 @@ I have further plans to provide more information about the snapshots and issues
 pertaining to them to aid users in knowing when to update so stay tuned.
 
 Enjoy!
-
-
-- [1] https://lists.opensuse.org/opensuse-factory/2016-10/msg00591.html
-- [2] https://lists.opensuse.org/opensuse-factory/2016-12/msg00025.html
-- [3] https://github.com/openSUSE/libzypp/pull/68
-- [4] https://github.com/boombatower/tumbleweed-cli
-- [5] https://www.youtube.com/watch?v=RkDwGiS9Kcc
-- [6] https://github.com/boombatower/tumbleweed-snapshot
