@@ -1,11 +1,14 @@
 title: openSUSE Release Tools
-description: News about openSUSE release tool improvements and process changes.
+description: |
+  News about openSUSE release tool improvements and process changes. The release
+  team can be contacted via opensuse-releaseteam@opensuse.org mailing list or
+  in freenode.net IRC in the opensuse-factory channel.
 
 author: Jimmy Berry
-email: opensuse-releaseteam@opensuse.org
+email: jberry@suse.com
 github_username: openSUSE/osc-plugin-factory
 
-url: http://release.tools.opensuse.org/
+url: http://release-tools.opensuse.org/
 baseurl: ""
 
 theme: minima
