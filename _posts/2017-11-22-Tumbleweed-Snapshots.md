@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Announcing Tumbleweed Snapshots: Rolling With You"
-categories: tumbleweed-snapshots
 ---
 
 Adapted from [announcement to `opensuse-factory` mailing list](https://lists.opensuse.org/opensuse-factory/2017-11/msg00591.html):
