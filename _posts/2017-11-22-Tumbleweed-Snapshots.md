@@ -84,7 +84,7 @@ For full list of commands and options `tumbleweed --help` or see [documentation]
 
 <iframe type="text/html" width="640" height="360"
   src="https://www.youtube.com/embed/RkDwGiS9Kcc"
-  frameborder="0"></iframe>
+  frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 Lastly, if there are mirror administrators interested in hosting/mirror the
 snapshots let me know. Using various tools for interacting with S3 it should be
