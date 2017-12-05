@@ -82,6 +82,10 @@ or to switch, refresh, and dup
 
 For full list of commands and options `tumbleweed --help` or see [documentation](https://github.com/boombatower/tumbleweed-cli). A [short video demonstration is also available](https://www.youtube.com/watch?v=RkDwGiS9Kcc).
 
+<iframe type="text/html" width="640" height="360"
+  src="https://www.youtube.com/embed/RkDwGiS9Kcc"
+  frameborder="0"></iframe>
+
 Lastly, if there are mirror administrators interested in hosting/mirror the
 snapshots let me know. Using various tools for interacting with S3 it should be
 easy to make a copy of the public bucket. For those interested, take a look at
