@@ -8,7 +8,7 @@ author: Jimmy Berry
 email: jberry@suse.com
 github_username: openSUSE/osc-plugin-factory
 
-url: http://release-tools.opensuse.org/
+url: http://release-tools.opensuse.org
 baseurl: ""
 
 theme: minima
