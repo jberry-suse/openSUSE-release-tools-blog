@@ -6,7 +6,7 @@ description: |
 
 author: Jimmy Berry
 email: jberry@suse.com
-github_username: openSUSE/osc-plugin-factory
+github_username: openSUSE/openSUSE-release-tools
 
 url: http://release-tools.opensuse.org
 baseurl: ""
